@@ -5,6 +5,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title %></title>
     <%= stylesheet_link_tag "application" %>
@@ -12,7 +14,13 @@
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
+
+    <!--[if lte IE 8]><div class="alert-ie8">Vous utilisez un navigateur trop ancien, merci de le mettre &agrave; jour afin de pouvoir naviguer sur le site.</div><![endif]-->
+
+
     <%= partial "layouts/navbar" %>
     <%= yield %>
+    <%= partial "layouts/footer" %>
+
   </body>
 </html>

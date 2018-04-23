@@ -1,0 +1,123 @@
+.contact-content {
+  // Requis
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  color: $light-black;
+  border-radius: 3px;
+
+  // Taille
+  width: 1000px;
+
+  // FULL SCREEN - BANNIERE - navbar - QUELQUE MARGE (Qu'on met sur le wrapper)
+  height: calc(100vh - 60vh - 120px - 30px) !important;
+
+  // Margin pour la banner
+  margin-top: 15px;
+
+  // Margin pour l'élement en dessous
+  margin-bottom: 15px;
+
+  // Flex pour les 3 items
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // padding de gauche pour tenter de centre un peu
+  .appelle{
+    padding-left: 15px
+  }
+
+  // Les logos
+  i{
+    font-size: 25px;
+  }
+
+  // Les h3
+  h3{
+    font-size: 20px;
+
+    // Margin séparant du <p> ainsi que du <i>
+    margin: 10px 0px;
+  }
+
+  // Les p
+  p{
+    font-size: 15px;
+
+    // Margin du bas
+    margin: 0px 0px;
+  }
+
+  // Border séparant les 3 rubriques
+  .border-right-orange{
+    border-right: 1px solid $orange;
+  }
+
+
+  // xs
+  @media (max-width: 767px) {
+    // Taille
+    height: auto;
+
+    // Margin sur le côté
+    margin-right: 30px;
+    margin-left: 30px;
+
+    // Margin séparant les 3 rubriques
+    .rubrique{
+      margin-bottom: 30px;
+    }
+
+    // Mais pas pour la dérnière
+    .rdvmail{
+      margin-bottom: 0px;
+    }
+
+    // Margin pour espacer du haut (sur 2 rubrique)
+    .appelle{
+      margin-top: 30px;
+    }
+    .rdvmail{
+      margin-bottom: 30px;
+    }
+
+    // Padding pour séparer des côtés
+    .rubrique{
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+}
+
+.contact-part{
+
+  // Flex pour center par rapport au container
+  display: flex;
+  justify-content: space-around;
+}
+
+// L'arrière plan
+.wrapper-contact{
+
+  // La taille : full screen - banner - navbar
+  height: calc(100vh - 60vh - 120px);
+
+  // Requis
+  background-color: $dark-gray;
+}
+
+
+// sm
+@media(min-width:768px) and (max-width: 991px){
+
+  // Le wrapper s'adapate à la taille
+  .wrapper-contact{
+    height: 230px !important;
+  }
+
+  .contact-content{
+    height: 200px !important;
+  }
+}
+

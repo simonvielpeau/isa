@@ -1,0 +1,33 @@
+.type-chirurgie-page{
+  // Requis
+  max-width: 2000px;
+  // bannière image
+  img{
+    // Requis
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+
+    // J'écarte les images
+    padding: 10px;
+    margin: 10px;
+  }
+
+  p{
+    font-size: 16px;
+    font-weight: lighter;
+  }
+
+  a{
+    color: $light-black;
+    &:hover{
+      text-decoration: none;
+      color: $light-black;
+      img{
+        opacity: 0.7;
+      }
+    }
+  }
+
+}

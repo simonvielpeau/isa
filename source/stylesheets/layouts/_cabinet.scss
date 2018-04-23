@@ -1,0 +1,52 @@
+.cabinet{
+
+  // Réduire le container
+  width: 900px;
+
+  // Le titre
+  h2{
+    // Requis
+    font-size: 22px;
+    font-weight: bolder;
+    color: $dark-gray;
+
+    // J'enlève la margin
+    margin: 0;
+
+    // Margin pour le haut
+    margin-top: 40px;
+
+    // Pour le bas (en l'occurence le trait)
+    margin-bottom: 12px;
+  }
+
+  // Le texte
+  p{
+    // Requis
+    text-align: justify;
+    font-size: 15.5px;
+    font-weight: lighter;
+    color: $dark-gray;
+
+    // Margin avec le haut (le trait en l'occurence)
+    margin-top: 10px;
+  }
+
+}
+
+
+// xs
+@media(max-width:767px){
+  .cabinet{
+    // Taille
+    width: auto !important;
+  }
+}
+
+// Sm
+@media(min-width:768px) and (max-width: 992){
+  .cabinet{
+    // Taille
+    width: auto !important;
+  }
+}

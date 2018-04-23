@@ -1,0 +1,77 @@
+.chirurgie-page{
+
+  // J'adapte la taille de la div avec celle de la description du cabinet
+  width: 900px;
+
+  // La hauteur
+  height: 300px;
+
+  // Requis
+  background-color: $light-gray;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  border-radius: 3px;
+
+  // Margin avec le haut et le bas
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  // Centrage
+  margin-left: auto;
+  margin-right: auto;
+
+  // La taille
+  h2{
+    // Requis
+    font-size: 22px;
+    font-weight: bolder;
+    color: $dark-gray;
+
+    // J'enlève la margin
+    margin: 0;
+
+    // Margin pour le haut
+    margin-top: 30px;
+
+    // Pour le bas (en l'occurence le texte)
+    margin-bottom: 30px;
+  }
+  // Le texte
+  p{
+    // Requis
+    text-align: justify;
+    font-size: 15.5px;
+    font-weight: lighter;
+    color: $dark-gray;
+
+    // Je pad tout
+    padding: 0px 30px;
+  }
+}
+
+// xs
+@media (max-width: 767px) {
+  .chirurgie-page{
+    // Taille
+    height: auto !important;
+    width: auto !important;
+
+    // Je sépare de la droite et gauche
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+
+// sm
+@media (min-width: 768px) and (max-width: 992) {
+  .chirurgie-page{
+    // Taille
+    height: auto !important;
+    width: auto !important;
+
+    // Je sépare de la droite et gauche
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+
