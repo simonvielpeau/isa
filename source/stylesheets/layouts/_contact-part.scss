@@ -9,8 +9,7 @@
   // Taille
   width: 1000px;
 
-  // FULL SCREEN - BANNIERE - navbar - QUELQUE MARGE (Qu'on met sur le wrapper)
-  height: calc(100vh - 60vh - 120px - 30px) !important;
+  height: 200px;
 
   // Margin pour la banner
   margin-top: 15px;
@@ -54,11 +53,47 @@
     border-right: 1px solid $orange;
   }
 
+}
 
-  // xs
-  @media (max-width: 767px) {
-    // Taille
+.contact-part{
+
+  // Flex pour center par rapport au container
+  display: flex;
+  justify-content: space-around;
+}
+
+// L'arrière plan
+.wrapper-contact{
+
+  // La taille : full screen - banner - navbar
+  height: 230px;
+
+  // Requis
+  background-color: $dark-gray;
+}
+
+
+// sm + xs
+@media(min-width:0px) and (max-width: 991px){
+  // Le wrapper s'adapate à la taille
+  .wrapper-contact{
+    height: 230px !important;
+    height: auto !important;
+  }
+
+  .contact-content{
+    height: 200px !important;
+  }
+}
+
+// xs
+@media(max-width: 766px){
+  .wrapper-contact{
     height: auto;
+  }
+  .contact-content{
+    // Taille
+    height: auto !important;
 
     // Margin sur le côté
     margin-right: 30px;
@@ -89,35 +124,3 @@
     }
   }
 }
-
-.contact-part{
-
-  // Flex pour center par rapport au container
-  display: flex;
-  justify-content: space-around;
-}
-
-// L'arrière plan
-.wrapper-contact{
-
-  // La taille : full screen - banner - navbar
-  height: calc(100vh - 60vh - 120px);
-
-  // Requis
-  background-color: $dark-gray;
-}
-
-
-// sm
-@media(min-width:768px) and (max-width: 991px){
-
-  // Le wrapper s'adapate à la taille
-  .wrapper-contact{
-    height: 230px !important;
-  }
-
-  .contact-content{
-    height: 200px !important;
-  }
-}
-

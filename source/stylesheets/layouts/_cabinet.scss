@@ -1,7 +1,7 @@
 .cabinet{
 
   // Réduire le container
-  width: 900px;
+  max-width: 900px;
 
   // Le titre
   h2{
@@ -24,8 +24,8 @@
   p{
     // Requis
     text-align: justify;
-    font-size: 15.5px;
-    font-weight: lighter;
+    font-size: 18px;
+    font-weight: 300;
     color: $dark-gray;
 
     // Margin avec le haut (le trait en l'occurence)
