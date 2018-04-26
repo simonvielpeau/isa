@@ -19,5 +19,7 @@ end
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
+
+  deploy.cname =  'http://www.chirurgie-refractive-ophtalmologie-caen.com'
 end
 
