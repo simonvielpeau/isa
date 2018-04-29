@@ -16,8 +16,7 @@ configure :build do
   activate :asset_hash
   activate :relative_assets
   set :relative_links, true
-  config[:dataConfig]
-  activate :sitemap, hostname: data.settings.site.url
+  activate :sitemap, hostname: "https://www.chirurgie-refractive-ophtalmologie-caen.com"
   activate :minify_html, remove_input_attributes: false
 end
 
