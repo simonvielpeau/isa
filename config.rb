@@ -2,6 +2,9 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+activate :relative_assets
+set :relative_links, true
+
 activate :sprockets
 
 page '/*.xml', layout: false
@@ -19,7 +22,5 @@ end
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
-
-  deploy.cname =  'http://www.chirurgie-refractive-ophtalmologie-caen.com'
 end
 
