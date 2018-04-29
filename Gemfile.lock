@@ -7,6 +7,13 @@ GIT
       net-sftp
       ptools
 
+GIT
+  remote: https://github.com/matsu911/middleman-sitemap
+  revision: b52c2256d4188761122804cbb79ceb6cd1afdf6b
+  specs:
+    middleman-sitemap (0.0.13)
+      middleman-core (>= 3.2.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -96,8 +103,6 @@ GEM
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
-    middleman-sitemap (0.0.13)
-      middleman-core (>= 3.2.2)
     middleman-sprockets (4.1.1)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
@@ -149,7 +154,7 @@ DEPENDENCIES
   middleman-autoprefixer (~> 2.7)
   middleman-deploy!
   middleman-minify-html
-  middleman-sitemap
+  middleman-sitemap!
   middleman-sprockets
   pry-byebug
 

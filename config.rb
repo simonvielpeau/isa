@@ -15,11 +15,11 @@ configure :build do
   activate :minify_javascript
   activate :asset_hash
   activate :relative_assets
-  set :relative_links, true
   activate :sitemap, hostname: "https://www.chirurgie-refractive-ophtalmologie-caen.com"
   activate :minify_html, remove_input_attributes: false
 end
 
+activate :directory_indexes
 activate :gzip
 
 activate :deploy do |deploy|
