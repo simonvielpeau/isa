@@ -11,5 +11,4 @@ gem 'font-awesome-middleman'
 gem 'bootstrap-sass'
 gem 'jquery-middleman'
 
-gem "middleman-sitemap", :git => "https://github.com/matsu911/middleman-sitemap"
 gem 'middleman-minify-html'

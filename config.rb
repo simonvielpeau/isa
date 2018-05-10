@@ -15,7 +15,6 @@ configure :build do
   activate :minify_javascript
   activate :asset_hash
   activate :relative_assets
-  activate :sitemap, hostname: "https://www.chirurgie-refractive-ophtalmologie-caen.com"
   activate :minify_html, remove_input_attributes: false
 end
 
