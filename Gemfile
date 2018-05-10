@@ -13,3 +13,5 @@ gem 'jquery-middleman'
 
 gem 'middleman-sitemap'
 gem 'middleman-minify-html'
+
+gem 'middleman-protect-emails'

@@ -5,6 +5,7 @@ end
 set :relative_links, true
 
 activate :sprockets
+activate :protect_emails
 
 page '/*.xml', layout: false
 page '/*.json', layout: false
@@ -16,7 +17,7 @@ configure :build do
   activate :asset_hash
   activate :relative_assets
   activate :minify_html, remove_input_attributes: false
-  activate :sitemap, hostname: "http://chirurgie-refractive-ophtalmologie-caen.com/"
+  activate :sitemap, hostname: "chirurgie-refractive-ophtalmologie-caen.com"
 end
 
 activate :directory_indexes
