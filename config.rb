@@ -16,6 +16,7 @@ configure :build do
   activate :asset_hash
   activate :relative_assets
   activate :minify_html, remove_input_attributes: false
+  activate :sitemap, hostname: data.settings.site.url
 end
 
 activate :directory_indexes
