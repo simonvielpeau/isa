@@ -5,7 +5,6 @@ end
 set :relative_links, true
 
 activate :sprockets
-activate :protect_emails
 
 page '/*.xml', layout: false
 page '/*.json', layout: false

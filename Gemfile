@@ -13,5 +13,3 @@ gem 'jquery-middleman'
 
 gem "middleman-sitemap", :git => "https://github.com/matsu911/middleman-sitemap"
 gem 'middleman-minify-html'
-
-gem 'middleman-protect-emails'
