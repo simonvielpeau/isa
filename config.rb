@@ -16,7 +16,7 @@ configure :build do
   activate :asset_hash
   activate :relative_assets
   activate :minify_html, remove_input_attributes: false
-  activate :sitemap, hostname: "chirurgie-refractive-ophtalmologie-caen.com"
+  activate :sitemap, hostname: "chirurgie-ophtalmologique-caen.com"
 end
 
 activate :directory_indexes
