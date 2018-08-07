@@ -1,0 +1,22 @@
+myopie:
+  nametitle: "la myopie"
+  name: "myopie"
+  description: "La myopie est la conséquence d’un oeil trop long. L’image se crée en avant de la rétine rendant la vision de loin floue."
+cataracte:
+  nametitle: "la cataracte"
+  name: "cataracte"
+  description: "La cataracte correspond à l’opacification du cristallin, lentille biconvexe située derrière l’iris.
+Elle est responsable d’une baisse de vision progressive. La chirurgie est le seul moyen d’améliorer la vision. Elle se déroule en ambulatoire majoritairement avec une anesthésie locale pure : juste quelques gouttes d’un collyre anesthésiant. Il n’y a pas d’interruption de traitement médicamenteux à prévoir.
+La chirurgie de la cataracte permet d’améliorer dans le même temps les problèmes de vision de loin mais aussi de près avec la mise en place d’implant progressifs."
+astigmatisme:
+  nametitle: "la myopie"
+  name: "astigmatisme"
+  description: "L’astigmatisme est la conséquence d’une cornée présentant une courbure irrégulière. La vision est floue de loin comme de près."
+hypermetropie:
+  nametitle: "la myopie"
+  name: "hypermetropie"
+  description: "L’hypermétropie est la conséquence d’un oeil trop court. L’image se crée en arrière de la rétine rendant la vision de près et distance ordinateur."
+presbytie:
+  nametitle: "la presbytie"
+  name: "presbytie"
+  description: "La presbytie est la conséquence d’une perte d’accommodation du cristallin. Les objets proches apparaissent flou."

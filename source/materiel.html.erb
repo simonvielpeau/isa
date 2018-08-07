@@ -4,26 +4,18 @@ title: Athéna Vision - Dr VIELPEAU | Chirurgie des yeux laser | Matériel
 
 <div class="container text-center isa-container">
   <h2>Matériel à la pointe</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <p>
+    <%= data.autre.materiel %>
+  </p>
 </div>
 
 <div class="container text-center materiel-photos">
   <h2>Photos du matériels</h2>
   <div class="row">
-    <div class="col-xs-12 col-md-4 col-lg-3 materiel-img">
-      <%= image_tag "http://www.ophtalmologie-caen.fr/assets/img/page/14/23/small/hd-analyser-qualite-visuelle-opthalmo-caen.jpg" %>
-    </div>
-    <div class="col-xs-12 col-md-4 col-lg-3 materiel-img">
-      <%= image_tag "http://www.ophtalmologie-caen.fr/assets/img/page/14/23/small/glaucome-atteinte-retine-champ-visuel-opthalmo-caen.jpg" %>
-    </div>
-    <div class="col-xs-12 col-md-4 col-lg-3 materiel-img">
-      <%= image_tag "http://www.ophtalmologie-caen.fr/assets/img/page/14/23/small/frontofocometre-mesure-puissance-verres-fleury-sur-orne.jpg" %>
-    </div>
-    <div class="col-xs-12 col-md-4 col-lg-3 materiel-img">
-      <%= image_tag "http://www.ophtalmologie-caen.fr/assets/img/page/14/23/small/retinographe-ophtalmologue-fleury-sur-orne.jpg" %>
-    </div>
-    <div class="col-xs-12 col-md-4 col-lg-3 materiel-img">
-      <%= image_tag "http://www.ophtalmologie-caen.fr/assets/img/page/14/23/small/laser-yag-traitement-cataracte-opthalmologue-caen.jpg" %>
-    </div>
+    <% data.materiel.each do |photo| %>
+      <div class="col-xs-12 col-md-4 col-lg-3 materiel-img">
+        <img src="../images/<%=photo.link%>">
+      </div>
+    <% end %>
   </div>
 </div>

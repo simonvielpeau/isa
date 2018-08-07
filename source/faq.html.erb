@@ -1,77 +1,18 @@
 ---
-title: Athéna Vision - Dr VIELPEAU | Questions / Réponses
+title: "Athéna Vision - Dr VIELPEAU | Questions / Réponses"
 ---
 
 <div class="container text-center faq-page">
   <h2>Foire aux questions</h2>
-  <div class="faq">
-    <p class="question">
-      <i class="fas fa-comments"></i> Dois-je enlever mes lentilles avant de venir faire les examens pré-opératoire d'une chirurgie réfractive ?
-    </p>
-    <p class="reponse">
-      L'examen <strong>pré-opératoire</strong> doit se faire sur des yeux ayant retrouvés leurs caractéristiques naturelles.
-      <br>
-      Il vous faudra donc enlever vos <strong>lentilles</strong> souples 4/5 jours avant les examens pré-opératoire, et 10 jours avant pour des lentilles rigides.
-    </p>
-  </div>
-  <div class="faq">
-    <p class="question">
-      <i class="fas fa-comments"></i> Dois-je enlever mes lentilles avant de venir faire les examens pré-opératoire d'une chirurgie réfractive ?
-    </p>
-    <p class="reponse">
-      L'examen <strong>pré-opératoire</strong> doit se faire sur des yeux ayant retrouvés leurs caractéristiques naturelles.
-      <br>
-      Il vous faudra donc enlever vos <strong>lentilles</strong> souples 4/5 jours avant les examens pré-opératoire, et 10 jours avant pour des lentilles rigides.
-    </p>
-  </div>
-  <div class="faq">
-    <p class="question">
-      <i class="fas fa-comments"></i> Dois-je enlever mes lentilles avant de venir faire les examens pré-opératoire d'une chirurgie réfractive ?
-    </p>
-    <p class="reponse">
-      L'examen <strong>pré-opératoire</strong> doit se faire sur des yeux ayant retrouvés leurs caractéristiques naturelles.
-      <br>
-      Il vous faudra donc enlever vos <strong>lentilles</strong> souples 4/5 jours avant les examens pré-opératoire, et 10 jours avant pour des lentilles rigides.
-    </p>
-  </div>
-  <div class="faq">
-    <p class="question">
-      <i class="fas fa-comments"></i> Dois-je enlever mes lentilles avant de venir faire les examens pré-opératoire d'une chirurgie réfractive ?
-    </p>
-    <p class="reponse">
-      L'examen <strong>pré-opératoire</strong> doit se faire sur des yeux ayant retrouvés leurs caractéristiques naturelles.
-      <br>
-      Il vous faudra donc enlever vos <strong>lentilles</strong> souples 4/5 jours avant les examens pré-opératoire, et 10 jours avant pour des lentilles rigides.
-    </p>
-  </div>
-  <div class="faq">
-    <p class="question">
-      <i class="fas fa-comments"></i> Dois-je enlever mes lentilles avant de venir faire les examens pré-opératoire d'une chirurgie réfractive ?
-    </p>
-    <p class="reponse">
-      L'examen <strong>pré-opératoire</strong> doit se faire sur des yeux ayant retrouvés leurs caractéristiques naturelles.
-      <br>
-      Il vous faudra donc enlever vos <strong>lentilles</strong> souples 4/5 jours avant les examens pré-opératoire, et 10 jours avant pour des lentilles rigides.
-    </p>
-  </div>
-  <div class="faq">
-    <p class="question">
-      <i class="fas fa-comments"></i> Dois-je enlever mes lentilles avant de venir faire les examens pré-opératoire d'une chirurgie réfractive ?
-    </p>
-    <p class="reponse">
-      L'examen <strong>pré-opératoire</strong> doit se faire sur des yeux ayant retrouvés leurs caractéristiques naturelles.
-      <br>
-      Il vous faudra donc enlever vos <strong>lentilles</strong> souples 4/5 jours avant les examens pré-opératoire, et 10 jours avant pour des lentilles rigides.
-    </p>
-  </div>
-  <div class="faq">
-    <p class="question">
-      <i class="fas fa-comments"></i> Dois-je enlever mes lentilles avant de venir faire les examens pré-opératoire d'une chirurgie réfractive ?
-    </p>
-    <p class="reponse">
-      L'examen <strong>pré-opératoire</strong> doit se faire sur des yeux ayant retrouvés leurs caractéristiques naturelles.
-      <br>
-      Il vous faudra donc enlever vos <strong>lentilles</strong> souples 4/5 jours avant les examens pré-opératoire, et 10 jours avant pour des lentilles rigides.
-    </p>
+  <% data.faq.each do |qr| %>
+    <div class="faq">
+      <p class="question">
+        <i class="fas fa-comments"></i> <%= qr.question %>
+      </p>
+      <p class="reponse">
+        <%= qr.reponse %>
+      </p>
+    </div>
+  <% end %>
   </div>
 </div>

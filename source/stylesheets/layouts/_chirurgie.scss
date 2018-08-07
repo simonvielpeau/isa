@@ -1,10 +1,10 @@
 .chirurgie-page{
 
-  // J'adapte la taille de la div avec celle de la description du cabinet
+  // Largeur de la div
   width: 900px;
 
   // La hauteur
-  min-height: 400px;
+  min-height: auto;
 
   // Requis
   background-color: $light-gray;

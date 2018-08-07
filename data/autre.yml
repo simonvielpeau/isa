@@ -1,0 +1,33 @@
+chirurgie: "site en construction"
+
+contact: '
+<div class="container text-center contact-part" id="presentation-home">
+  <div class="contact-content">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="rubrique appelle">
+          <i class="fa fa-phone"></i>
+          <h3>Appelez-nous</h3>
+          <p>Nos secrétaires vous écouteront au 02.31.43.97.36</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="rubrique adresse">
+          <i class="fa fa-location-arrow"></i>
+          <h3>Trouvez-nous</h3>
+          <p>Le cabinet se situe au 6 rue Jane Addams à St-Contest</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="rubrique rdvmail">
+          <i class="fa fa-envelope"></i>
+            <h3>Ecrivez-nous</h3>
+            <p>Notre adresse email est la suivante : cabinet@vielpeau.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+'
+
+materiel: "site en construction"

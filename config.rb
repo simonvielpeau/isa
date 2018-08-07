@@ -26,3 +26,8 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+["myopie", "cataracte", "astigmatisme", "hypermetropie", "presbytie"].each do |type|
+  proxy "/chirurgie/#{type}.html", "/chirurgie/show.html", locals: { type: type }, ignore: true
+end
+
