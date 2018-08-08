@@ -8,6 +8,13 @@
   color: $light-gray;
   .footer-copyright{
     font-size: 18px;
+    a{
+      color: $light-gray;
+      &:hover{
+        color: $orange;
+        text-decoration: none;
+      }
+    }
     p{
       margin-bottom: 0px;
     }
@@ -33,7 +40,7 @@
 
 @media(max-width:767px){
   .footer-copyright{
-    font-size: 12px;
+    font-size: 12px !important;
     padding-left: 10px;
     text-align: center;
   }
