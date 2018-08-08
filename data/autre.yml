@@ -8,7 +8,7 @@ contact: '
         <div class="rubrique appelle">
           <i class="fa fa-phone"></i>
           <h3>Appelez-nous</h3>
-          <p>Nos secrétaires vous écouteront au 02.31.43.97.36</p>
+          <p>Nos secrétaires vous écouteront afin de rendre un rendez-vous au 02.31.43.97.36</p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4">
@@ -22,7 +22,7 @@ contact: '
         <div class="rubrique rdvmail">
           <i class="fa fa-envelope"></i>
             <h3>Ecrivez-nous</h3>
-            <p>Notre adresse email est la suivante : cabinet@vielpeau.com</p>
+            <p>Un reseignement ? Un rendez-vous ? Notre adresse email est la suivante : cabinet@vielpeau.com</p>
         </div>
       </div>
     </div>
