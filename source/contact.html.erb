@@ -3,7 +3,7 @@ title: "Athéna Vision - Dr VIELPEAU | Trouver le centre Athéna Vision"
 ---
 
 <div class="wrapper-map text-center contact-page">
-  <h2>Contacter et localiser le docteur VIELPEAU</h2>
+  <h2><strong>Visiter</strong> et <strong>localiser</strong> le <strong>CENTRE ATHENA VISION</strong></h2>
 
   <!-- Map -->
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.7407570983883!2d-0.3941992840401117!3d49.2054772793231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480a5cd597a2e503%3A0x44cda1d2183ac6ba!2s6+Rue+Jane+Addams%2C+14280+Saint-Contest!5e0!3m2!1sfr!2sfr!4v1524561664981" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -14,7 +14,7 @@ title: "Athéna Vision - Dr VIELPEAU | Trouver le centre Athéna Vision"
   <%= data.autre.contact %>
 </div>
 
-<div class="wrapper-contact-page">
+<div class="wrapper-horaire-page">
   <div class="container text-center horaire-part">
     <h2>Les jours de consultations</h2>
     <i class="fa fa-clock"></i>
@@ -23,3 +23,16 @@ title: "Athéna Vision - Dr VIELPEAU | Trouver le centre Athéna Vision"
     </p>
   </div>
 </div>
+<div class="wrapper-photos-cabinet dark-gray-bg">
+  <div class="container text-center materiel-photos cabinet-photos">
+    <h2>Photos du cabinet</h2>
+    <div class="row">
+      <% data.cabinet_photos.each do |photo| %>
+        <div class="col-xs-12 col-md-4 col-lg-3 materiel-img">
+          <img src="../images/<%=photo.link%>">
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+<div class="separateur-orange"></div>
