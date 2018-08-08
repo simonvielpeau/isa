@@ -24,14 +24,18 @@
 .dropdown-content-isa {
     display: none;
     position: absolute;
-    background-color: $dark-gray;
-    font-weight: lighter;
+    background-color: rgba(96,100,112,0.9);
+    font-weight: bolder;
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     right: 0;
     z-index: 1;
-    border-radius: 10px;
+    border-radius: 2.5px;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+    :first-child{
+      border-top: $orange solid 1.5px;
+    }
 }
 
 .dropdown-content-isa a {
@@ -39,6 +43,7 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    border-bottom: $orange solid 1.5px;
 }
 
 .dropdown-isa a:hover {color: orange;}
