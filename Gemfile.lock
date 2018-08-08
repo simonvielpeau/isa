@@ -117,7 +117,6 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.12.1)
-    photoswipe-rails (4.1.2)
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -157,7 +156,6 @@ DEPENDENCIES
   middleman-minify-html
   middleman-sitemap!
   middleman-sprockets
-  photoswipe-rails
   pry-byebug
 
 BUNDLED WITH
