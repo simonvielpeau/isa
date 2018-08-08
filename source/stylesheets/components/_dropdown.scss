@@ -1,0 +1,46 @@
+.dropbtn-isa {
+
+    color: $dark-gray;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    i{
+      color: $dark-gray;
+    }
+}
+
+.dropbtn-isa:hover, .dropbtn-isa:focus {
+  color: $orange;
+  transition: 0.2s;
+}
+
+.dropdown-isa {
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content-isa {
+    display: none;
+    position: absolute;
+    background-color: $dark-gray;
+    font-weight: lighter;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content-isa a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-isa a:hover {color: orange;}
+
+.show-isa {display: block;}

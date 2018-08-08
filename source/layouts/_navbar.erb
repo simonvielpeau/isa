@@ -20,19 +20,17 @@
       </ul>
    </div>
 
-   <!-- DROPDOWN XS -->
-   <div class="navbar-wagon-item">
-    <div class="dropdown">
-      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
-      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-         <li><%= link_to "Accueil", "index" %></li>
-         <li><%= link_to "Informations", "contact" %></li>
-         <li><%= link_to "Le Docteur VIELPEAU", "docteur-vielpeau" %></li>
-         <li><%= link_to "Matériel à la pointe", "materiel" %></li>
-         <li><%= link_to "Foire aux questions", "faq" %></li>
-      </ul>
+    <div class="dropdown-isa visible-xs visible-sm">
+    <i onclick="myFunction()" class="dropbtn-isa fa fa-bars"></i>
+      <div id="myDropdown-isa" class="dropdown-content-isa">
+        <%= link_to "Accueil", "index" %>
+        <%= link_to "Visiter et localiser le cabinet", "contact" %>
+        <%= link_to "Le Docteur VIELPEAU", "docteur-vielpeau" %>
+        <%= link_to "Matériel à la pointe", "materiel" %>
+        <%= link_to "Foire aux questions", "faq" %>
+      </div>
     </div>
-  </div>
 
+  </div>
 
 </div>
