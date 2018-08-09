@@ -23,16 +23,19 @@ title: "Athéna Vision - Dr VIELPEAU | Trouver le centre Athéna Vision"
     </p>
   </div>
 </div>
+
 <div class="wrapper-photos-cabinet dark-gray-bg">
   <div class="container text-center materiel-photos cabinet-photos">
     <h2>Photos du cabinet</h2>
-    <div class="row">
-      <% data.cabinet_photos.each do |photo| %>
-        <div class="col-xs-12 col-md-4 col-lg-3 materiel-img">
-          <img src="../images/<%=photo.link%>">
-        </div>
-      <% end %>
+      <div class="row">
+        <% data.cabinet_photos.each do |photo| %>
+          <div class="col-xs-12 col-md-12 col-lg-6 materiel-img">
+            <img src="../images/<%=photo.link%>">
+          </div>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>
+
 <div class="separateur-orange"></div>

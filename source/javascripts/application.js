@@ -11,7 +11,6 @@ function myFunction() {
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
-  console.log("test");
   if (!event.target.matches('.dropbtn-isa')) {
 
     var dropdowns = document.getElementsByClassName("dropdown-content-isa");
