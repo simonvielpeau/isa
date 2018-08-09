@@ -35,3 +35,25 @@
 strong .orange{
   color: $orange;
 }
+
+.open-photos{
+  padding-bottom: 30px;
+  a{
+    font-size: 24px;
+    background-color: $orange;
+    padding: 15px 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    margin: 0;
+    border-radius: 3px;
+    &:hover{
+      text-decoration: none;
+      opacity: 0.92;
+    }
+  }
+  h2{
+    margin-bottom: 5px;
+  }
+}

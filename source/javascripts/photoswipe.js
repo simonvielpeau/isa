@@ -72,7 +72,7 @@ function openPhotoSwipe() {
       // for example:
       index: 0, // start at first slide
       escKey: false,
-      closeEl: false,
+      closeEl: true,
       captionEl: false,
       fullscreenEl: true,
       zoomEl: false,
