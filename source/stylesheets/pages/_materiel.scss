@@ -21,3 +21,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+// xs
+@media(max-width:767px){
+  .materiel-photos .materiel-img img{
+    // Taille
+    width: 300px !important;
+  }
+}
