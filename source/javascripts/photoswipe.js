@@ -29,6 +29,36 @@ function openPhotoSwipe() {
           h: 810
       },
       {
+          src: '../images/cabinet-6.jpg',
+          w: 1080,
+          h: 1440
+      },
+      {
+          src: '../images/cabinet-7.jpg',
+          w: 1080,
+          h: 1440
+      },
+      {
+          src: '../images/cabinet-8.jpg',
+          w: 1080,
+          h: 1440
+      },
+      {
+          src: '../images/cabinet-9.jpg',
+          w: 1080,
+          h: 810
+      },
+      {
+          src: '../images/materiel-1.jpg',
+          w: 1080,
+          h: 810
+      },
+      {
+          src: '../images/materiel-2.jpg',
+          w: 1080,
+          h: 1440
+      },
+      {
           src: '../images/cabinet-maps.jpg',
           w: 798,
           h: 331
