@@ -14,7 +14,7 @@ title: Matériel | Dr VIELPEAU | Chirurgie ophtalmologique Caen
   <div class="row">
     <% data.materiel.each do |photo| %>
       <div class="col-xs-12 col-md-12 col-lg-6 materiel-img">
-        <img src="../images/<%=photo.link%>">
+        <%= image_tag photo.link, alt: "Matériel chirurgie réfractive Isabelle VIELPEAU" %>
       </div>
     <% end %>
   </div>

@@ -5,7 +5,7 @@
     <% types.each_with_index do |type, index| %>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 <% if index == 0 %> col-lg-offset-1 <% end %>">
         <% link_to "chirurgie/#{type}" do %>
-          <%= image_tag "image-#{type}.jpg" %>
+          <%= image_tag "image-#{type}.jpg", alt: "Chirurgie réfractive à Caen, opérations" %>
         <p class="title-type-chirurgie"><%=type.capitalize%></p>
         <% end %>
       </div>

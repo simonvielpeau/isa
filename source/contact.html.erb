@@ -30,7 +30,7 @@ title: Contact | Dr VIELPEAU | Chirurgie ophtalmologique Caen
       <div class="row">
         <% data.cabinet_photos.each do |photo| %>
           <div class="col-xs-12 col-md-12 col-lg-6 materiel-img">
-            <img src="../images/<%=photo.link%>">
+            <%= image_tag photo.link, alt: "Photo du Centre Athéna vision, centre chirurgical à Caen" %>
           </div>
         <% end %>
       </div>
