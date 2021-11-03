@@ -1,5 +1,5 @@
 .isa-container{
-  background-color: $light-black;
+  background-color: $light-gray;
   border-radius: 3px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 
@@ -7,27 +7,27 @@
 
   h2{
     font-size: 20px;
-    color: white;
+    color: $light-black;
     margin: 0;
     margin: 15px 0px;
     font-weight: bold;
   }
 
   p{
-    color: white;
+    color: $light-black;
     text-align: justify;
     font-weight: lighter;
     padding: 0px 20px 20px 20px;
   }
 
   li{
-    color: white;
+    color: $light-black;
     font-weight: lighter;
   }
 
   img{
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-    border: 3px solid $orange;
+    border: 1px solid $orange;
     margin-bottom: 10px;
   }
   margin-bottom: 20px;
